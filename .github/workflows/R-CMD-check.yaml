@@ -1,0 +1,2 @@
+# In R:
+usethis::use_github_action("check-standard")
