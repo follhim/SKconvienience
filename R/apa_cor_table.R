@@ -453,13 +453,3 @@ apa_cor_table <- function(data,
   return(result)
 }
 
-#' Print method for apa.cor.table objects
-#' @param x An apa.cor.table object
-#' @param ... Additional arguments (not used)
-#' @export
-print.apa.cor.table <- function(x, ...) {
-  cat("\n", x$table.title, "\n\n")
-  print(x$table.body, quote = FALSE)
-  cat("\n", x$table.note, "\n")
-  invisible(x)
-}
