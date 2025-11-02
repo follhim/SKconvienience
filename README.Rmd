@@ -1,21 +1,28 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 
 # SKconvienience
 
 <!-- badges: start -->
-
 [![R-CMD-check](https://github.com/follhim/SKconvienience/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/follhim/SKconvienience/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-SKconvienience is a package with convenience functions for all things R
-stats.
+SKconvienience is a package with convenience functions for all things R stats.
 
 ## Installation
 
-You can install the development version of SKconvienience from
-[GitHub](https://github.com/follhim/SKconvienience) with:
-
+You can install the development version of SKconvienience from [GitHub](https://github.com/follhim/SKconvienience) with:
 ``` r
 # Install devtools if you don't have it
 install.packages("devtools")
@@ -27,8 +34,7 @@ devtools::install_github("follhim/SKconvienience")
 ## Example
 
 ### Basic correlation table
-
-``` r
+```{r example, eval=FALSE}
 library(SKconvienience)
 
 # Create an APA-style correlation table
@@ -38,27 +44,22 @@ apa_cor_table(mtcars[, 1:5])
 ### With shifted descriptives
 
 Display descriptive statistics as rows at the bottom instead of columns:
-
-``` r
+```{r shifted, eval=FALSE}
 apa_cor_table(mtcars[, 1:5], shift.descriptives = TRUE)
 ```
 
 ### Export to Excel
-
-``` r
+```{r excel, eval=FALSE}
 apa_cor_table(mtcars[, 1:5], filename = "my_correlation_table.xlsx")
 ```
 
 ## Citation
 
 To cite this package in publications:
-
-``` r
+```{r citation, eval=FALSE}
 citation("SKconvienience")
 ```
 
 Or use:
 
-> Kim, S. (2025). SKconvienience: A package for convenience in
-> statistics (Version 0.0.0.9).
-> <https://follhim.github.io/SKconvienience/>
+> Kim, S. (2025). SKconvienience: A package for convenience in statistics (Version 0.0.0.9). https://follhim.github.io/SKconvienience/
