@@ -3,3 +3,4 @@
 export(apa_cor_table)
 importFrom(stats,cor.test)
 importFrom(stats,sd)
+importFrom(utils,packageVersion)
