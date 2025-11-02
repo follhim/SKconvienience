@@ -11,15 +11,27 @@ SKconvienience is a package with convience functions for all things Rstats.
 You can install the development version of SKconvienience like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# Install devtools if you don't have it
+install.packages("devtools")
+
+# Install SKconvienience
+devtools::install_github("follhim/SKconvienience")
 ```
 
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
 
-``` r
+```{r example, eval=FALSE}
 library(SKconvienience)
-## basic example code
+
+# Basic correlation table
+apa_cor_table(mtcars[, 1:5])
+
+# With shifted descriptives (descriptive stats as rows at bottom)
+apa_cor_table(mtcars[, 1:5], shift.descriptives = TRUE)
+
+# Export to Excel
+apa_cor_table(mtcars[, 1:5], filename = "my_correlation_table.xlsx")
 ```
 
