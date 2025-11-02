@@ -54,7 +54,7 @@
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
-<p>You can install the development version of SKconvienience from GitHub:</p>
+<p>You can install the development version of SKconvienience from <a href="https://github.com/follhim/SKconvienience" class="external-link">GitHub</a> with:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># Install devtools if you don't have it</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"devtools"</span><span class="op">)</span></span>
@@ -71,12 +71,13 @@
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/follhim/SKconvienience" class="external-link">SKconvienience</a></span><span class="op">)</span></span>
 <span></span>
+<span><span class="co"># Create an APA-style correlation table</span></span>
 <span><span class="fu"><a href="reference/apa_cor_table.html">apa_cor_table</a></span><span class="op">(</span><span class="va">mtcars</span><span class="op">[</span>, <span class="fl">1</span><span class="op">:</span><span class="fl">5</span><span class="op">]</span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level3">
 <h3 id="with-shifted-descriptives">With shifted descriptives<a class="anchor" aria-label="anchor" href="#with-shifted-descriptives"></a>
 </h3>
-<p>Descriptive statistics displayed as rows at the bottom:</p>
+<p>Display descriptive statistics as rows at the bottom instead of columns:</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="reference/apa_cor_table.html">apa_cor_table</a></span><span class="op">(</span><span class="va">mtcars</span><span class="op">[</span>, <span class="fl">1</span><span class="op">:</span><span class="fl">5</span><span class="op">]</span>, shift.descriptives <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span></code></pre></div>
 </div>
@@ -93,6 +94,10 @@
 <p>To cite this package in publications:</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/citation.html" class="external-link">citation</a></span><span class="op">(</span><span class="st">"SKconvienience"</span><span class="op">)</span></span></code></pre></div>
+<p>Or use:</p>
+<blockquote>
+<p>Kim, S. (2025). SKconvienience: A package for convenience in statistics (Version 0.0.0.9). <a href="https://follhim.github.io/SKconvienience/" class="uri">https://follhim.github.io/SKconvienience/</a></p>
+</blockquote>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="links">
