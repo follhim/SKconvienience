@@ -2,7 +2,7 @@ pandoc: 3.1.11
 pkgdown: 2.1.3
 pkgdown_sha: ~
 articles: {}
-last_built: 2025-11-02T01:59Z
+last_built: 2025-11-02T02:03Z
 urls:
   reference: https://follhim.github.io/SKconvienience/reference
   article: https://follhim.github.io/SKconvienience/articles
