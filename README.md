@@ -2,6 +2,7 @@
 # SKconvienience
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/follhim/SKconvienience/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/follhim/SKconvienience/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 SKconvienience is a package with convience functions for all things Rstats.
