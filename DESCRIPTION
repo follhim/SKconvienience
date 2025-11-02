@@ -1,0 +1,14 @@
+Package: SKconvienience
+Title: A convienience package for R workflow
+Version: 0.0.0.9
+Authors@R: 
+    person("Seungju", "Kim", , "seungju7@illinois.edu", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Suggests: 
+    openxlsx,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
